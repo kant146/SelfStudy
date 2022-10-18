@@ -1,0 +1,123 @@
+*{
+  margin: auto;
+  padding: auto;
+
+  
+}
+
+.header{
+  justify-content: center;
+  display: grid;
+  align-items: center;
+  margin: auto;
+  padding: auto;
+  margin-top: 5%;
+}
+.header spam{
+  width: 55%;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ color: darkgray;
+}
+.portdiv{
+  margin: 2% 5% 2% 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 90%;
+  height: auto;
+}
+.portfolio{
+box-shadow: 1%;
+height: 15.5rem;
+width: 15rem;
+border: 1%;
+border-color: brown;
+
+border-radius: 20px;
+border-color: black;
+
+justify-content: center;
+display: grid;
+align-items: center;
+margin: auto;
+padding: auto;
+box-shadow:2px 2px 4px #e8d2d2;
+
+}
+
+.portfolio:hover{
+color: rgb(197, 241, 130);
+box-shadow: 0.4rem 0.4rem lightblue;
+filter: drop-shadow(0 0 2rem lightblue);
+box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+zoom:1.02;
+
+}
+.portfolio>img{
+  width: 10rem;
+  height: 10rem;
+  border-radius: 20px;
+  margin-top: 0.3rem;
+}
+.portfolio>div>img{
+  width: 3rem;
+  height: 2rem;
+  border-radius: 20px;
+  display: grid;
+  align-items: center;
+  margin: auto;
+  padding: auto;
+  margin-top: 1%;
+  margin-bottom: 0.5rem;
+}
+
+button{
+  justify-content: center;
+  display: grid;
+  align-items: center;
+  margin: auto;
+  padding: auto;
+  margin-top: 5%;
+  width: 9rem;
+  height: 3rem;
+  background-color: crimson;
+  color:white;
+  border: 0;
+  border-radius: 5px;
+  font-weight:normal;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+button>a{
+  text-decoration: none;
+  color: white;
+  text-shadow: 2px 2px 4px #e8d2d2;
+  font-size: 1.19rem;
+
+}
+.button-33 {
+  background-color: #c2fbd7;
+  border-radius: 100px;
+  box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+  color: green;
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  display: flex;
+  margin: auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.button-33:hover {
+  box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
